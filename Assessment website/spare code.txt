@@ -1,0 +1,19 @@
+/*----Colours----------*/
+
+/*----Pri #5EB4DA Blue----*/
+/*----Sec #E0FD00 Yellow--*/
+/*----one #E4E5E4 Grey----*/
+
+/*----INDEX------------*/
+
+/*----01 Containers-----------*/
+/*----02 Typography-----------*/
+/*----03 Text Classes---------*/
+/*----04 Nav Bar--------------*/
+/*----05 Images---------------*/
+/*----06 Container Classes----*/
+/*----07 Media Queries--------*/
+
+/*----01 Containers----*/
+
+use iamnasrine to refrence css

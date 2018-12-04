@@ -1,0 +1,121 @@
+
+/* --- INDEX --- */
+
+/* --- 01 HEADER --- */
+
+
+
+
+
+
+
+/* --- 01 HEADER --- */
+ul{
+	position: fixed;
+	top: 12;
+	width: 100%;
+	text-align: center;
+}
+li{
+	display: inline-block;
+	margin: auto;
+	padding: 0 15px;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+}
+h1{
+	font-size: 40px;
+	font-family: "Raleway", Arial, sans-serif;
+}
+/* Hero image */
+.hero-image {
+    /* "linear-gradient" used to make text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/hero.jpg");
+    height: 50%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+p{
+	font-family: "K2D", Arial, sans-serif;
+}
+
+.intro-text{
+	padding: 50px;
+	margin: 15px;
+	background-color: red;
+}
+.one-third{
+  width: 33%;
+}
+
+.flex-container{
+  display: flex;
+}
+ .flex-text-align-right{
+   justify-content: flex-end;
+ }
+.flex-text-align-center{
+  justify-content: center;
+}
+.illustration{
+  display: flex;
+  background-color: #257273;
+  height: 50px;
+  max-width: 1300px;
+  padding: 0 25px;
+  margin: 50px 0;
+  align-content: center;
+  align-items: center;
+}
+.content-wrapper{
+  padding: 0 50px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+
+
+
+/* footer */
+
+
+
+footer{
+  width: 100%;
+  margin-top: 100px;
+  -webkit-box-shadow: -1px -3px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px -3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px -3px 8px rgba(0, 0, 0, 0.2);
+}
+.footer-main{
+	width: 100%;
+	background-color: white;
+	display: inline-flex;
+	text-align: center;
+}
+.footer-main ul li{
+	color: $brand-secondary;
+	padding-bottom: 25px;
+}
+.footer-bar{
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+    background-color: pink;
+    color: green;
+}
+.one-third:first-of-type{
+	text-align: left;
+}
+.one-third:last-of-type{
+	text-align: right;
+}
