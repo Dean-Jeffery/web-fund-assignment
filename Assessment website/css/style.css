@@ -41,6 +41,20 @@ h1{
     background-size: cover;
     position: relative;
 }
+.navigation{
+	position: fixed;
+	z-index: 1000;
+	height: 100px;
+	width: 100%; 
+	padding: 18px;
+	-webkit-transition: all ease-out .5s;
+	-moz-transition: all ease-out .5s;
+	-o-transition: all ease-out .5s;
+	transition: all ease-out .5s;
+}
+.background-shadow {
+  background-color: rgba(34,34,34,0.8);
+}
 
 
 p{
