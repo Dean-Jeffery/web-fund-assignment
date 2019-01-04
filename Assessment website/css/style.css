@@ -64,15 +64,26 @@ p{
 .intro-text{
 	padding: 50px;
 	margin: 15px;
-	background-color: red;
+	background-color: green;
 }
 .one-third{
   width: 33%;
 }
-
+.content-wrapper .one-third:last-of-type{
+	text-align: right;
+}
 .flex-container{
   display: flex;
 }
+@media (max-width: 720px) {
+    .flex-container {
+        display: block;
+    }
+    .one-third{
+        margin: 0 auto;
+    }
+}
+
  .flex-text-align-right{
    justify-content: flex-end;
  }
@@ -127,9 +138,4 @@ footer{
     background-color: pink;
     color: green;
 }
-.one-third:first-of-type{
-	text-align: left;
-}
-.one-third:last-of-type{
-	text-align: right;
-}
+
